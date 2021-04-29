@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>luiz Guilherme:: Curriculum Vitae</title>
+
+
+
+    <!-- css interno: as regras são declaradas no arquivo HTML emtre <style></style -->
+      <style>
+        /* reegras são fotmatações para elementos da pagina */
+        
+       body{
+         margin: 50px;
+         background-color:midnightblue;
+         color:black;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+
+       h2{
+         margin-top: 80px;
+       }
+       h2:hover{
+         color:white;
+       }
+        
+       p{
+         width: 70%;
+         text-align: justify; 
+       }
+       /* aplicar formatação na primeira linha dos parágrafos */
+       p::first-letter{
+         font-size: 40px;
+         font-weight: bold;
+         color:black;
+         margin: 3px;
+       }
+
+        strong{
+           color:black;
+           font-weight:bold;
+        }
+
+        /* essa regra afeta apenas ul e li dentro de nav */
+        nav ul{
+          list-style-type: none;
+          padding:0;
+          width: 200px;
+        }
+        
+        /* converte tags li e a para tipo de caixa(tipos:inline e caixa) */
+
+        /* a maioria das tags são de dois tipos block e inline
+        block:h1,h2,etc,p,ol,ul,div,table,session,header,footer etc...
+        inline:a,strong,spam,img,etc
+        tags inline não possuem margens internas e altura */
+
+
+       nav ul li, nav ul li a{
+        display: block;
+       }
+
+       nav ul li a{
+      background-color: midnightblue;
+      color:black;
+      text-decoration:none;
+      height: 40px;
+      padding: 5px;
+      border-bottom: 1px  red;
+      line-height: 40px;
+       }
+
+      nav ul li a:hover{
+       background-color: whitesmoke;
+      color:black;
+       }
+  
+      figure{
+        width: 300px;
+        height: 300px;
+        /* a propriedade abaixo centraliza um elemento do tipo caixa */
+        margin: 0 auto;
+        border:4px solid whitesmoke;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 15px 15px 25px black ;
+      }
+      figure img{
+        height: 100%;
+      }
+
+      /* PARA REALINHAR UMA FOTO DENTRO DO SEU RECIPIENTE:
+Declarar position: relative;
+no CSS do recipiente
+e na foto declarar position: absolute;
+e a partir daí posicionar com as propriedades LEFT e TOP */
+
+
+
+        /* 0123456789 abcdef sao codigo hex  */
+      </style>
+</head>
+<body>
+    <h1>Curriculum Vitae - Luiz Guilherme</h1>
+    
+    <figure>
+      <img src="foto.jpg" alt="foto de gojo satoro vonado no ceu">
+    </figure>
+
+    <!-- links de ancora são links que navegam procurando 
+    uma tag <a name> ou um atributo id dentro de uma tag -->
+      <nav>
+        <ul>
+          <li><a href="#dados_pessoais">dados pessoais</a></li>
+          <li><a href="#experiencia_profissional">experiência profissional</a></li>
+          <li><a href="#experiencia_academica">experiência acadêmica</a></li>
+          <li><a href="#objetivos">objetivos</a></li>
+          <li><a href="#quem_sou">quem sou</a></li>
+        </ul>
+      </nav>
+    
+
+      <h2 id="dados_pessoais">Dados Pessoais</h2>
+    
+    <Ul type="square">
+      <li style="color:black"> <strong>Nome:</strong> Luiz Guilherme Ferreira</li>
+         <li><strong>Endereço:</strong>: São José dos Campos</li>
+         <li><strong>E-Mail:</strong>
+          <a href="mailto:f.luizguilherme08@gmail.com">luizguilherme08@gmail.com</a>
+        </li>
+    </Ul>
+<!-- css interno é declarado entre <style></style> na seção <head> do codigo -->
+    
+  
+    <h2 id="experiencia_profissional">Experiência Profissional</h2>
+     <ol>
+         <li><strong>Empresa:</strong>Nasa</li>
+         <li><strong>Data:</strong>2030/2042</li>
+         <li><strong>Empresa:</strong> 
+          <a href="https://microsoft.com/pt-br" target="_blank">microsoft</a>
+        </li>
+         <li><strong>Data:</strong>2055/2067</li>
+     </ol> 
+    
+
+
+    <h2 id="experiencia_academica">Experiência acadêmica</h2>
+    <ul>
+        <li><strong>Ensino Médio:</strong>completo</li>
+        <li><strong>Termino:</strong>2019</li>
+        <li><strong>Curso:</strong>TI <a href="https://www.sp.senac.br" target="_blank">Senac:</a></li>
+        <li><strong>Termino:</strong>Curso em andamento</li>
+    </ul>
+
+    <h2 id="objetivos">Objetivos</h2>
+    <ul>
+        <li>Programador de sites e apps</li>
+        <li>Desenvolvidor de jogos</li>
+        <li>Editor de fotos e videos</li>
+    </ul>
+
+
+    <h2 id="quem_sou">Quem sou</h2>
+<p>
+  Gosto de animes, quadrinhos,jogos,esportes,filmes,series e desenhos
+</p>
+<p>
+  Falo muito com quem quero, não tenho muita paciência e muito lerdo
+</p>
+<p>
+  Por causa de trabalho e a média de sálario e tambem trabalhar atrás de um computador sempre foi um objetivo
+</p>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Em uma aplicação da lei livre, o elemento dos jogadores, vários lorem. Mas por neque lobortis facilisis mauris importante. Vulputar a fotografia deslumbrante do vale. Nec urna diam elit suscipit vulputate ullamcorper nisl Sed congue. Nunc dapibus, orci non euismod rutrum, posuere ipsum dolor nibh, id tempor sapien a nisi agora. Agora, o arco principal cenouras Mesa pobreza. A qualquer momento, o futebol bioquímico às vezes financia uma televisão gratuita com o diâmetro do desenvolvedor, e não uma temperatura de panela de salada de camadas.
+</p>
+<p>
+Vestibulum eget venenatis neque. Às vezes eles machucam a fome e ao primeiro gosto. Níveis de preços recomendados ou aljava de massa emocionante. Agora eros, uma grande comodidade ou veículos graduados esterilizados. Não há ninguém para odiar. Donec congue enim dolor, life, decorar qualquer coisa nos momentos da vida. Sed hendrerit do que temo que a gravida massa luctus venenatis. Clínico e sem ódio. O leão até membros UFA de maquiagem, tarde de massa de basquete de cenouras.
+</p>
+<p>
+Não há necessidade de apostas de futebol de amendoim maconha graduado precisa de algumas cenouras. A fim de ser enviado para vários tempos passa antes dele. Um lago da doença, eleifend dignissim fermentum ac, tempor eu elit. Suspendisse id placerat purus. Jasmine financia futebol, mas também não é o preço. Mas sempre um botão de proteína, puxe as cenouras. A necessidade de molho de tomate, ou CNN, se formou. Laoreet apenas fabricação de televisão e imóveis. Agora bananas manufaturam o ódio ao imobiliário. Presente condimentum molestie velit, sed placerat mauris no laoreet of life. Id nibh sit amet, de luto, do que o maior dos fins do. Elemento inteiramente de lances livres e imobiliário, o futebol leva espaço ao ar livre.
+</p>
+</body>
+</html>
